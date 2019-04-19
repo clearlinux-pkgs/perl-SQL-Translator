@@ -4,7 +4,7 @@
 #
 Name     : perl-SQL-Translator
 Version  : 0.11024
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/I/IL/ILMARI/SQL-Translator-0.11024.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/I/IL/ILMARI/SQL-Translator-0.11024.tar.gz
 Summary  : 'SQL DDL transformations and more'
@@ -13,6 +13,7 @@ License  : Artistic-1.0-Perl
 Requires: perl-SQL-Translator-bin = %{version}-%{release}
 Requires: perl-SQL-Translator-man = %{version}-%{release}
 BuildRequires : buildreq-cpan
+BuildRequires : perl(Algorithm::Diff)
 BuildRequires : perl(Carp::Clan)
 BuildRequires : perl(Class::Method::Modifiers)
 BuildRequires : perl(DBI)
@@ -45,7 +46,6 @@ use SQL::Translator;
 %package bin
 Summary: bin components for the perl-SQL-Translator package.
 Group: Binaries
-Requires: perl-SQL-Translator-man = %{version}-%{release}
 
 %description bin
 bin components for the perl-SQL-Translator package.
@@ -56,6 +56,7 @@ Summary: dev components for the perl-SQL-Translator package.
 Group: Development
 Requires: perl-SQL-Translator-bin = %{version}-%{release}
 Provides: perl-SQL-Translator-devel = %{version}-%{release}
+Requires: perl-SQL-Translator = %{version}-%{release}
 
 %description dev
 dev components for the perl-SQL-Translator package.
