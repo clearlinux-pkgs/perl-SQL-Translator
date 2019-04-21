@@ -4,10 +4,10 @@
 #
 Name     : perl-SQL-Translator
 Version  : 0.11024
-Release  : 10
+Release  : 11
 URL      : https://cpan.metacpan.org/authors/id/I/IL/ILMARI/SQL-Translator-0.11024.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/I/IL/ILMARI/SQL-Translator-0.11024.tar.gz
-Summary  : 'SQL DDL transformations and more'
+Summary  : SQL DDL transformations and more
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
 Requires: perl-SQL-Translator-bin = %{version}-%{release}
