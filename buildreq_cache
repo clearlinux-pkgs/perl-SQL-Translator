@@ -1,12 +1,14 @@
-0.11024
+1.60
 perl(Algorithm::Diff)
 perl(Carp::Clan)
 perl(Class::Method::Modifiers)
 perl(DBI)
 perl(Devel::GlobalDestruction)
 perl(File::ShareDir)
+perl(File::ShareDir::Install)
 perl(Import::Into)
 perl(JSON)
+perl(JSON::MaybeXS)
 perl(Module::Runtime)
 perl(Moo)
 perl(Package::Variant)
