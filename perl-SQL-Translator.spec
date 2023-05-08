@@ -4,7 +4,7 @@
 #
 Name     : perl-SQL-Translator
 Version  : 1.63
-Release  : 28
+Release  : 29
 URL      : https://cpan.metacpan.org/authors/id/V/VE/VEESH/SQL-Translator-1.63.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/V/VE/VEESH/SQL-Translator-1.63.tar.gz
 Summary  : 'SQL DDL transformations and more'
